@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(69, 69, 160);
+    padding: 20px;
+}
+.right{
+    display: flex;
+    gap: 5rem;
+    justify-content: right;
+    padding-right: 10px;
+}
+.right a{
+    text-decoration: none;
+}
+.empty1 a{
+    color: white;
+}
+.empty2 a{
+    color: white;
+}
+.empty3 a{
+    color: white;
+}
+.empty4 a{
+    color: white;
+}
+img{
+    padding-left: 30px;
+}
+.info{
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+    padding-right: 20px;
+}
+.info a{
+    text-decoration: none;
+}
+.reachus a{
+    padding: 20px;
+}
+.mail a{
+    color: rgb(71, 159, 189);
+}
+.mail button{
+    background-color: white;
+}
+.apply a{
+    color: white;
+}
+.apply button{
+    background-color: rgb(38, 171, 216);
+}
+.home a{
+    color: blue;
+}
+.about a:hover{
+    color: rgb(21, 148, 190);
+    text-decoration: underline;
+}
+.acad a:hover{
+    color: rgb(21, 148, 190);
+    text-decoration: underline;
+}
+.addmit a:hover{
+    color: rgb(21, 148, 190);
+    text-decoration: underline;
+}
+.fees a:hover{
+    color: rgb(21, 148, 190);
+    text-decoration: underline;
+}
+.research a:hover{
+    color: rgb(21, 148, 190);
+    text-decoration: underline;
+}
+.navi a:hover{
+    color: rgb(21, 148, 190);
+    text-decoration: underline;
+}

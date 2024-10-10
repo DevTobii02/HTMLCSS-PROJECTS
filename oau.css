@@ -1,0 +1,38 @@
+.header{
+    background-color: darkblue;
+    padding: 20px;
+}
+.right{
+    display: flex;
+    gap: 4rem;
+    justify-content: right;
+    padding: 5px;
+}
+.ql a{
+    color: white;
+    text-decoration: none;
+}
+.eportal a{
+    color: white;
+    text-decoration: none;
+}
+.netque a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+}
+.oau{
+    text-align: center;
+    color: darkblue;
+}
+.oau_identity{
+    text-align: center;
+    color: darkblue;
+}
+.right1{
+    text-align: right;
+    text-decoration: solid;
+}

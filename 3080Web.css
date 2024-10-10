@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: green;
+    padding: 20px;
+    display: flex;
+    gap: 4rem;
+    justify-content: left;
+}
+.quick_access a{
+    text-decoration: none;
+    color: white;
+}
+.quick_access_content a{
+    display: none;
+}
+.quick_access_content a:hover{
+    display: block;
+    padding: 10px;
+}
+.tamdvs a{
+    text-decoration: none;
+    color: white;
+}
+.e-portal a{
+    color: white;
+    text-decoration: none;
+}
+.e-portal_content a{
+    display: none;
+}
+.logo_motto{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+}
+h2{
+    color: green;
+}
+p{
+    color: crimson;
+    font-family: cursive;
+    text-align: center;
+}
+.uniosun_identity{
+    align-items: center;
+}
+.uniosun_identity .ui_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.uniosun_identity .ui_flex img{
+    height: 50px;
+    width: 50px;
+}
+.meet_us{
+    display: flex;
+    gap: 1rem;
+    padding: 3px;
+}
+.meet_us a{
+    text-decoration: none;
+}
+.home a{
+    color: green;
+    text-decoration: underline;
+}
+.abt_us a{
+    color: black;
+}
+.abt_us a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.mgt a{
+    color: black;
+}
+.mgt a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.acad a{
+    color: black;
+}
+.acad a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.portal a{
+    color: black;
+}
+.portal a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.admin a{
+    color: black; 
+}
+.admin a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.lib a{
+    color: black;
+}
+.lib a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.newsevents a{
+    color: black;
+}
+.newsevents a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.tetf a{
+    color: black;
+}
+.tetf a:hover{
+    color: green;
+    text-decoration: underline;
+}
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*@media screen and (max-width:765px) {
+    .navbar_link{
+    width: 100%;
+    flex-direction:column;
+    justify-content: space-between;
+
+    }
+}*/
+/* The header styles start */
+
+/*.header{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+P{
+    color: crimson;
+    font-family: cursive;
+    text-align: center;
+}
+h2{
+    color: green;
+}
+.uniosun_identity .ui_flex{
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
+.uniosun_identity .ui_flex img{
+    width: 50px;
+    height: 50px;
+}
+
+.h_links_con{
+    display: flex;
+    gap: 1rem;
+}
+.home a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.about_us button{
+    color: white;
+    background-color: white;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+
+.about_us a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.management button{
+    color: white;
+    background-color: white;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+.management{
+    display: inline-block;
+}
+.management a{
+    text-decoration: none;
+    display: block;
+    padding: 1px;
+    color: black;
+}
+/* The header styles end */
+
+/*body{
+    background-image: url(C:\Users\USER\Desktop\HTMLCSS\IMAGES\diverse-group-scientists-conducting-experiment-laboratory_431161-87588.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}*/
+
+
+
+
+
+
+/*@media screen and (max-width:765px) {
+    .navbar_link{
+    width: 100%;
+    flex-direction:column;
+    justify-content: space-between;
+
+    }
+}*/
